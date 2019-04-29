@@ -1,5 +1,5 @@
 {
-  "name": "brunch-env-replace",
+  "name": "env-replace-brunch",
   "version": "0.0.1",
   "private": false,
   "peerDependencies": {
