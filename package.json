@@ -1,0 +1,8 @@
+{
+  "name": "brunch-env-replace",
+  "version": "0.0.1",
+  "private": false,
+  "peerDependencies": {
+    "brunch": "~2.10"
+  }
+}
