@@ -22,8 +22,8 @@ class EnvReplace {
   }
 }
 
-BrunchPlugin.prototype.brunchPlugin = true;
-BrunchPlugin.prototype.type = 'javascript';
-BrunchPlugin.prototype.pattern = /\.jsx?$/;
+EnvReplace.prototype.brunchPlugin = true;
+EnvReplace.prototype.type = 'javascript';
+EnvReplace.prototype.pattern = /\.jsx?$/;
 
 module.exports = EnvReplace;
