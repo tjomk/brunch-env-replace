@@ -1,6 +1,6 @@
 'use strict';
 
-class BrunchEnvReplace {
+class EnvReplace {
   constructor(config) {
     // Replace 'plugin' with your plugin's name.
     // Don't include 'brunch' or 'plugin' words in configuration key.
@@ -26,4 +26,4 @@ BrunchPlugin.prototype.brunchPlugin = true;
 BrunchPlugin.prototype.type = 'javascript';
 BrunchPlugin.prototype.pattern = /\.jsx?$/;
 
-module.exports = BrunchPlugin;
+module.exports = EnvReplace;
